@@ -17,16 +17,6 @@
         <INPUT TYPE = "text" NAME = "A31">
         <INPUT TYPE = "text" NAME = "A32">
         <INPUT TYPE = "text" NAME = "A33"><BR>
-        Inputkan nilai matriks kedua:<BR>
-        <INPUT TYPE = "text" NAME = "B11">
-        <INPUT TYPE = "text" NAME = "B12">
-        <INPUT TYPE = "text" NAME = "B13"><BR>
-        <INPUT TYPE = "text" NAME = "B21">
-        <INPUT TYPE = "text" NAME = "B22">
-        <INPUT TYPE = "text" NAME = "B23"><BR>
-        <INPUT TYPE = "text" NAME = "B31">
-        <INPUT TYPE = "text" NAME = "B32">
-        <INPUT TYPE = "text" NAME = "B33"><BR>
         <INPUT TYPE="submit" VALUE="hitung" NAME="submit">
     </form>
 </body>
