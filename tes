@@ -1,0 +1,33 @@
+echo "<th>EKDA</th>";
+	echo "<th>C1</th>";
+	echo "<th>C2</th>";
+	echo "<th>C3</th>";
+	echo "<th>Nilai</th>";
+	echo "<th>Rank</th>";
+    echo "<tr>";
+	echo "<th>Vektor Eigen</th>";
+    for($tmbbb=0; $tmbbb<=2; $tmbbb+=1)
+    {
+        echo "<td>$BPK2[$tmbbb]</td>";
+    }
+	echo "</tr><tr>";
+	{
+		echo "</tr><tr>";
+		echo "<th>A1</th>";
+	for($tmb=0; $tmb<=1; $tmb+=1)
+		echo "<td>$TAAAC1[$tmb]</td>";
+	
+		}{
+			echo "</tr><tr>";
+			echo "<th>A2</th>";
+	for($tmb=0; $tmb<=1; $tmb+=1)
+		echo "<td>$TAAAC2[$tmb]</td>";
+	
+		}{
+			echo "</tr><tr>";
+			echo "<th>-</th>";
+	for($tmb=0; $tmb<=1; $tmb+=1)
+		echo "<td>$TAAAC3[$tmb]</td>";
+	
+		}
+		echo "</tr>";
