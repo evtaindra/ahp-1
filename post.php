@@ -8,7 +8,6 @@
         $nama_kat = htmlentities($_POST['nama_kat']);
         $nama_tag = htmlentities($_POST['nama_tag']);
         $konten = htmlentities($_POST['konten']);
-var_dump($_POST);
         $query = $db->prepare("INSERT INTO `konten`(`judul`,`nama_kat`,`nama_tag`,`konten`)
         VALUES (:judul,:nama_kat,:nama_tag,:konten)");
         $query->bindParam(":judul", $judul);
